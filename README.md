@@ -30,7 +30,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 make sure default.conf is present in app directory.
 
 then Run `docker build -t angular-image .`
-and Run `docker run -d -p 4200:80 ang-image`
+and Run `docker run -d -p 4200:80 angular-image`
 
 Navigate to localhost:4200 to access your application.
 
